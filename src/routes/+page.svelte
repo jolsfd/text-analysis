@@ -63,7 +63,7 @@
 
     console.log(score)
 
-    if (!score){
+    if (!score || score == -1){
       return
     }
 
